@@ -1,0 +1,16 @@
+
+ul li i{
+	text-align: center;
+}
+ul li a{
+	text-align: center;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.btn{
+	background-color: #EFF62B;
+	border-color:#EFF62B;
+}
