@@ -14,8 +14,24 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+		<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
+				<span onclick="openNav()" class="d-none d-sm-block d-md-none">open</span>
   <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
   <form class="form-inline my-2 my-lg-0 float-right">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -25,11 +41,11 @@
 
   
     <ul class="navbar-nav float-left ">
-      <li class="nav-item active d-md-none d-sm-none d-xs-none d-lg-block">
+      <li class="nav-item active d-none  d-lg-block">
         <a class="nav-link" href="#"><i class="fas fa-handshake d-block fa-2x"></i></i>Become a <br>e-Retailer <span class="sr-only">(current)</span></a>
       </li>
       
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown d-none  d-lg-block">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user fa-2x d-block"></i>Log-in<br>or Sign-up
         </a>
@@ -40,19 +56,19 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-      <li class="nav-item" >
+      <li class="nav-item d-none  d-lg-block" >
         <a class="nav-link" href="#">
         	<i class="fas fa-phone-alt d-block fa-2x"></i>
         	Contact Us
         </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item d-none  d-lg-block">
         <a class="nav-link" href="#">
         	<i class="fas fa-shopping-cart d-block fa-2x"></i>
         	Cart
         </a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown d-none  d-lg-block">
         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-ellipsis-v fa-2x"></i>
         </a>
@@ -65,6 +81,44 @@
   
 </div>
 </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	</header>
 
 
@@ -78,5 +132,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
 
 </html>
