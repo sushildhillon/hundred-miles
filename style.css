@@ -201,3 +201,15 @@ ul{
 .form-control{
     width: 600px;
 }
+
+
+@media(max-width: 986px){
+    .nav-2{
+        display: none;
+    }
+}
+ 
+.nav-2 li a{
+    border-right: 1px solid;
+    font-weight: bold;
+}

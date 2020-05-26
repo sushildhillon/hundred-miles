@@ -9,80 +9,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-    
-    <div class="wrapper">
-    <!-- Sidebar -->
-    <nav id="sidebar">
-
-        <div id="dismiss ">
-            <i class="fas fa-arrow-left "></i>
-        </div>
-
-        <div class="sidebar-header">
-            <h3>Hundred Plus</h3>
-        </div>
-
-        <ul class="list-unstyled components">
-            <p>Account</p>
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                    <li>
-                        <a href="#">Sign Up</a>
-                    </li>
-                    
-                </ul>
-            </li>
-            <li>
-                <a href="#">About</a>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="#">Page 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Page 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Page 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Portfolio</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    </div>
-    <!-- Page Content -->
-    <div id="content">
-        <div class="container-fluid">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            
-
-                    <button type="button" id="sidebarCollapse" class="btn d-none d-sm-block d-md-none">
-                        <i class="fas fa-align-left "></i>
-                    </button>
-                    <a href="#" class="navbar-brand"><img src="images/logo.png" alt=""></a>
-                   <form class="form-inline ml-auto" style="width: 50%">
-                     <input class="form-control mr-sm-2 d-lg-inline" style="width: 100% " type="search" placeholder="Search" aria-label="Search">
-                     
+    <!-----------First Navigation Bar------------------>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 ">
+                 <nav class="navbar navbar-expand-lg navbar-light bg-light pb-0 mb-0 justify-content-sm-start fixed top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                     </button>
+                    <a href="#" class="navbar-brand ml-auto order-1 order-lg-0"><img src="images/logo.png" alt=""></a>
+                   <form class="form-inline ml-auto " style="width:40%">
+                     <input class="form-control mr-sm-2  " style="width: 100% " type="search" placeholder="Search" aria-label="Search">
                    </form>
-                   <ul class="navbar-nav  ml-auto">
+                   <ul class="navbar-nav  ml-auto mr-auto">
                       <li class="nav-item active d-none d-lg-block">
                             <a class="nav-link" href="#"><i class="fas fa-handshake d-block fa-2x"></i>Become a<br>e-Retailer <span class="sr-only">(current)</span></a>
                       </li>
                       
                       <li class="nav-item dropdown d-none d-lg-block">
                             <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user d-block fa-2x"></i>Log-in or<br>Sign-up
+                            <i class="fas fa-user d-block fa-2x"></i>Log-in
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="#">Log-in</a>
@@ -99,18 +45,54 @@
                       </li>
                       
                     </ul>
+                 </nav>
+            </div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-warning nav-2 " style="background-color: ">
+                    
 
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+                    <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="border-left: 1px solid">Kitchen Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Storage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Dining & Serving</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Kitchen Appliances</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Copper Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Smart & Exclusive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gifting Products</a>
+                    </li>
+                </div>
+                    
+            </nav>
+            </div>
             
-             </nav>
+            
+            
         </div>
     </div>
-    <!-- Dark Overlay element -->
-    <div class="overlay"></div>
-</div>
-</body>
+    
 
+
+
+
+
+
+</body>
 
 
 
@@ -123,6 +105,4 @@
 <script src="https://kit.fontawesome.com/c7176a2577.js" crossorigin="anonymous"></script>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 </html>
