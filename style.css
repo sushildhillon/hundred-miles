@@ -208,10 +208,17 @@ ul{
         display: none;
     }
 }
+<<<<<<< HEAD
 .nav-2{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.nav-2 li a{
+    border-right: 1px solid;
+    font-weight: bold;
+
+=======
+ 
 .nav-2 li a{
     border-right: 1px solid;
     font-weight: bold;
